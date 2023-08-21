@@ -2,24 +2,59 @@ package org.example;
 
 public class Familia {
 
-    Animal papa="Dinosaurin";
-    Animal mama="Tiburosin";
+    Animal papa;
+    Animal mama;
     Animal hijo;
+
+    public Familia() {
+    }
 
     public Familia(Animal papa, Animal mama) {
         this.papa = papa;
         this.mama = mama;
     }
 
-    public  imprimirFamilia(){
+    @Override
+    public String toString() {
+        return "Familia{" +
+                "papa=" + papa +
+                ", mama=" + mama +
+                ", hijo=" + hijo +
+                '}';
+    }
+
+    public Animal getPapa() {
+        return papa;
+    }
+
+    public void setPapa(Animal papa) {
+        this.papa = papa;
+    }
+
+    public Animal getMama() {
+        return mama;
+    }
+
+    public void setMama(Animal mama) {
+        this.mama = mama;
+    }
+
+    public Animal getHijo() {
+        return hijo;
+    }
+
+    public void setHijo(Animal hijo) {
+        this.hijo = hijo;
+    }
+
+    public void imprimirFamilia(){
 
         //Este metodo muestra los nombres de los integrantes de la familia
-        system.out.println(
+        System.out.println(
                 "El papá es: "+this.papa.nombre+
                         "\nLa mamá es: "+this.mama.nombre+
-                            "\nEl hijo es: "+this.hijo.nombre
-        )
-
+                        "\nEl hijo es: "+this.hijo.nombre
+        );
     }
 
     public void tenerHijo(String nombre){
@@ -43,8 +78,6 @@ public class Familia {
 
 
     }
-
-
 
 
 }
