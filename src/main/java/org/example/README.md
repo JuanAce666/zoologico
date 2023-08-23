@@ -1,22 +1,23 @@
-Preguntas del examen de conocimiento:
-¿Cuántas clases tiene el proyecto?: son 3 la main es zoologico donde se ejecuta el programa y luego estan familia y animal
+# Preguntas del examen de conocimiento:
 
-¿En cuál clase se define el programa principal?: En la Clase llamada Zoologico
+¿Cuántas clases tiene el proyecto?: **son 3 clases, la principal donde se ejecuta el programa llamada zoologico y esta familia y animal.**
 
-¿Cuántos objetos de la clase Animal se crean en la clase principal?: Solo se crean 2 objetos
+¿En cuál clase se define el programa principal?: **la clase principal y la unica donde se ejecuta (zoologico).** 
 
-¿Cuántos y cuáles son los atributos de la clase Animal?: Nombre, Genero, Peso y pareja y son 4 atributos
+¿Cuántos objetos de la clase Animal se crean en la clase principal?:**unicamente solo se crean 2 objetos.**
 
-¿Cuáles atributos de la clase Animal no son primitivos?: Pareja es un objeto, nombre es un string
+¿Cuántos y cuáles son los atributos de la clase Animal?:**son solo 4 atributos(Nombre,Genero,Peso y pareja).** 
 
-¿Qué pasa si eliminamos la línea 17 de la clase Zoologico?: tira un error ya que es la linea donde los animales consiguen pareja y al no tener pareja no hay hijo
+¿Cuáles atributos de la clase Animal no son primitivos?: **la  Pareja es un objeto y el nombre es un string.**
 
-¿Cuántos métodos tiene la clase Familia?: serian 11 los metodos que tenia el profesor y se cuentan los constructores y los getters and setters y los toString que se implementaron
+¿Qué pasa si eliminamos la línea 17 de la clase Zoologico?: **en esa parte se tira un error ya que es la linea donde los animales se le consigue una pareja.**
 
-¿Cuántos parámetros tiene el método tenerHijo() de la clase Familia?:solo tiene un parametro:"tenerHijo(String nombre)"
+¿Cuántos métodos tiene la clase Familia?: **se cuentan 11 metodos se cuenta tambien los constructores los getter and setters y los toString que se implementan.**
 
-¿Cuántos atributos inicializa el constructor de la clase Familia?: papa y mama, son 2 atributos
+¿Cuántos parámetros tiene el método tenerHijo() de la clase Familia?:**solo hay un parametro en tenerHijo() y tiene un string.** 
 
-¿Qué tipo de retorno tiene el método tenerHijo()?: es un public void, o sea que no retorna nada 
+¿Cuántos atributos inicializa el constructor de la clase Familia?: **solo son 2 atributos con los que se inicia.**
+
+¿Qué tipo de retorno tiene el método tenerHijo()?: **no envia nada ya que es un public void y estos no retornan nada.**
 
 
